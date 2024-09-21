@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<RootNamespace>Itmo.ObjectOrientedProgramming.Lab5.Infrastructure.DataAccess</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Itmo.Dev.Platform.Postgres" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\Lab5.Application.Abstractions\Lab5.Application.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
